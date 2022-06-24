@@ -13,7 +13,7 @@ jobs:
       - name: build image and push to docker hub
         uses: docker/build-push-action@v1.1.0
         with:
-          username: taysa.barbosa
+          username: taysabarbosa
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: taysabarbosa/turtorial-argocd
           tags: ${{ env.github.sha}}, latest
