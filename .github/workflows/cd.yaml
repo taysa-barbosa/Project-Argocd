@@ -31,7 +31,7 @@ jobs:
           kustomize_version: v3.6.1
 
       - name: update k8s
-        run: 
+        run: |
             cd k8s
             kustomize edit set image goapp=taysabarbosa/turtorial-argocd:${{ github.sha }}
             cat kustomization.yaml
