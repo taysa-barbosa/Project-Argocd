@@ -16,4 +16,4 @@ jobs:
           username: taysabarbosa
           password: ${{ secrets.DOCKER_PASSWORD }}
           repository: taysabarbosa/turtorial-argocd
-          tags: ${{ env.github.sha}}, latest
+          tags: ${{ github.sha}}, latest
