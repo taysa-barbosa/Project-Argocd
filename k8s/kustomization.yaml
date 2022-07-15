@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: taysabarbosa/turtorial-argocd
-  newTag: 9c3d4424f8ae59054d07be53f261f9b537e391b6
+  newTag: f97ca78be46e814d7404da88388faa942c82d0a6
